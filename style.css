@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* Google Fonts: Racing Sans One and Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+
+    background-attachment: fixed;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #E5C25B,#FFD865,#FFE28F,  #7F7F7F);
+}
+
+#top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 23px;
+    color: grey;
+    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 14px;
+   font-weight: bold;
+   background-color: #222222;
+   color:  whitesmoke;
+}
+
+ 
+
+#menu {
+    background-color: #3a3a3a;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(52, 63, 58);
+    position: fixed;
+    left: 0%;
+    nav-left: bottom;
+    top: 15%;
+    width: 8em;
+    margin-top: -4em;
+    color:beige;
+    width: 200px;
+    font-size: 0,2rem;
+  }
+
+a {
+    color: beige;
+}
+
+
+.titulo{
+    font-family: 'Racing Sans One', 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    text-align: center;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #FFE28F;
+    font-size: 0,9rem;
+}
+
+p{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-align: justify, center;
+}
+
+pre{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-align: center, justify; 
+
+    
+}
+
+main{
+    background-color: #3a3a3a;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(52, 63, 58);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.navbar{
+    background-color: #3a3a3a;
+    font-size: 0,3rem;
+    margin: auto;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    color: palevioletred;
+
+}
+
+.contacts{
+    text-align: normal;
+    font-family: MontSerrat,Verdana, Geneva, Tahoma, sans-serif;
+}
