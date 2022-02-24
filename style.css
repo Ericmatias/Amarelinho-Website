@@ -10,6 +10,7 @@
 }
 
 body{
+    right: 500px;
     background-image: linear-gradient(to bottom, #E5C25B,#FFD865,#FFE28F,  #7F7F7F);
 }
 
@@ -39,11 +40,17 @@ body{
     left: 0%;
     nav-left: bottom;
     top: 15%;
-    width: 8em;
+    width: 1em;
     margin-top: -4em;
     color:beige;
     width: 200px;
     font-size: 0,2rem;
+    text-align: start;
+    font-size: smaller;
+    
+
+
+
   }
 
 a {
@@ -86,15 +93,48 @@ main{
 }
 
 .navbar{
+    width: 50px;
+    top: 100%;
     background-color: #3a3a3a;
     font-size: 0,3rem;
     margin: auto;
     font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
     color: palevioletred;
-
+    size: 90px;
+    resize: horizontal;
 }
 
 .contacts{
     text-align: normal;
     font-family: MontSerrat,Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+@media ( max-width : 400px) {
+
+     .navbar{
+         display: none;
+     }
+
+}
+
+
+.geral {
+	min-height:100%;
+    text-align: center;
+	position:absolute;
+	width:800px;
+}
+
+.footer {
+    text-align: center;
+    text-emphasis: none;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
