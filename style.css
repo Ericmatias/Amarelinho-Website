@@ -10,8 +10,9 @@
 }
 
 body{
-    right: 500px;
-    background-image: linear-gradient(to bottom, #E5C25B,#FFD865,#FFE28F,  #7F7F7F);
+  right: 500px;
+  background-image: linear-gradient(to bottom, #E5C25B,#FFD865,#FFE28F,  #7F7F7F);
+ min-width: 100vw;
 }
 
 #top {
@@ -48,9 +49,6 @@ body{
     text-align: start;
     font-size: smaller;
     
-
-
-
   }
 
 a {
@@ -90,6 +88,8 @@ main{
     margin: auto;
     text-align: center;
     color: white;
+    width: 100vw;
+	
 }
 
 .navbar{
@@ -108,17 +108,6 @@ main{
     text-align: normal;
     font-family: MontSerrat,Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
-@media ( max-width : 400px) {
-
-     .navbar{
-         display: none;
-     }
-
-}
-
-
 .geral {
 	min-height:100%;
     text-align: center;
@@ -138,3 +127,28 @@ main{
 .aside {width:200px;}
 .fleft {float:left;}
 .fright {float:right;}
+
+@media only screen and (min-width: 900px) and (max-width:1200px) {
+	#menu{
+		display: none;
+		visibility: hidden;
+	}		
+}
+
+	@media only screen and (max-width: 800px) {
+		
+		#menu{
+			display: none;
+			visibility: hidden;
+		}
+			
+}
+
+@media only screen and (max-width: 450px) {
+	.titulo{
+		font-size: 2rem;
+	}
+	
+}
+
+
